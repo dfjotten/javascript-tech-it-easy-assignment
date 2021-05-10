@@ -3,8 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <title>Tech It Easy Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <h1>Tech It Easy Assignment</h1>
 
+        <div>
+            <h2>Assignment 1</h2>
+            <p id="tvStock">How much stock do we have remaining:</p>
+        </div>
+
+    <div>
+        <h2>Assignment 2</h2>
+        <p id ="assignment-2">TV type names are:</p>
+
+        <p id="assignment-2-B"> TV's that are out of stock are:</p>
+
+        <p id="assignment-2-C">TV's with AmbiLight options are:</p>
+
+        <p id="assignment-2-D">TV's from low to high price are:</p>
+    </div>
+
+    <div>
+        <H2>Assignment 3</H2>
+        <p id="assignment-3-A">Total revenue projection for remaining stock is: </p>
+        <p id="assignment-3-B">Total revenue made thus far:</p>
+    </div>
+
+    <div>
+        <h2>Assignment 4</h2>
+        <P id="assignment-4">Two found televisions are:</P>
+    </div>
+
+    <div id="containerForTvs">
+        <h2>Assignment 5</h2>
+    </div>
+    <div class="buttonHolder">
+        <button id="sortPrice" onclick="console.log(sortByPrice(inventory))">Sort by price</button>
+        <button id="showAmbilight" onclick="console.log(tvsWithAmbilight(inventory))">Ambilight TV selection</button>
+        <button id="soldOut" onclick="console.log(soldOutTvs(inventory))">Sold Out</button>
+    </div>
+    </div>
+
+    <script src="main.js"></script>
 </body>
 </html>
